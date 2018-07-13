@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="@string/start_record"
             android:textOff="@string/start_record"
-            android:textOn="Stop Record"
+            android:textOn="@string/stop_record"
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:textSize="12sp"
@@ -41,23 +41,23 @@
         <Button
             android:id="@+id/btn_shoot_photo_mode"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="Shoot Photo Mode"
-            android:textSize="12sp"/>
+            android:layout_weight="1"
+            android:text="@string/shoot_photo"
+            android:textSize="12sp" />
+
         <Button
             android:id="@+id/btn_record_video_mode"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Record Video Mode"
+            android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:layout_gravity="center_vertical" />
+            android:text="@string/record" />
     </LinearLayout>
     <TextView
         android:id="@+id/timer"
         android:layout_width="150dp"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginTop="23dp"

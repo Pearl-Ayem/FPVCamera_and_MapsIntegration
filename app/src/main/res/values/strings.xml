@@ -9,7 +9,11 @@
     <string name="appbar_scrolling_view_behavior" />
     <string name="start_record">Start Record</string>
     <string name="capture">Capture</string>
+    <string name="shoot_photo">Shoot Photo Mode</string>
+    <string name="record">Record Video Mode</string>
     <string name="status_no_product_connected">Status: No Product Connected</string>
     <string name="open">Open</string>
     <string name="djifpvdemo">DJIFPVDemo</string>
+    <string name="stop_record">Stop Record</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
